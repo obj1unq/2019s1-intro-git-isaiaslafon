@@ -57,6 +57,7 @@ test "El bolichito puede mejorar si tiene una remera y una placa roja" {
 	bolichito.ponerEnVidriera(placa)
 	
 	bolichito.puedeMejorar()
+	assert.that(true)
 }
 
 test "El bolichito no puede mejorar si tiene una remera en el mostrador y una pelota en la vidriera" {
