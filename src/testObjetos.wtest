@@ -1,0 +1,15 @@
+import objetos.* 
+import bolichito.*
+
+test "objetos brillan correctamente" {
+assert.notThat(pelota.material().brilla())
+assert.that(placa.material().brilla())
+}
+
+
+test "El bolichito no es brillante si tiene una pelota y una placa" {
+	bolichito.ponerEnMostrador(pelota)
+	bolichito.ponerEnVidriera(placa)
+	
+	assert.notThat(bolichito.esBrillante())
+}

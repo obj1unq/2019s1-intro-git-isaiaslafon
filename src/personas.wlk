@@ -9,7 +9,9 @@ object estefania {
 }
 
 object luisa {
-	method leAgrada(objeto) { return objeto.material().brilla() }
+	//el le agrada se quitó ya que no lo usa otro objeto o test.
+	//method leAgrada(objeto) { return objeto.material().brilla() }
+	method leGusta(objeto) { return objeto.material().brilla() }
 }
 
 object juan {
